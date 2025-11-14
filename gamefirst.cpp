@@ -4,8 +4,13 @@
 using namespace std;
 
 bool gameOver;
+<<<<<<< HEAD
 const int width = 25;
 const int height = 25;
+=======
+const int width = 20;
+const int height = 20;
+>>>>>>> ab0249fcaee00fa309b8d397d5ecd22f2c27a569
 int x, y, fruitX, fruitY, score;
 int tailX[100], tailY[100];
 int nTail;
