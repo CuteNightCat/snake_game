@@ -4,7 +4,7 @@
 int main()
 {
     // 1. Tạo cửa sổ game
-    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Game Background");
+    sf::RenderWindow window(sf::VideoMode(900, 700), "SFML Game Background");
     
     // Đặt tốc độ khung hình giới hạn
     window.setFramerateLimit(60); 
@@ -42,6 +42,7 @@ int main()
     // --- Vòng lặp Game chính ---
     while (window.isOpen())
     {
+        window.display(); 
         sf::Event event;
         while (window.pollEvent(event))
         {

@@ -3,14 +3,9 @@
 #include <windows.h>
 using namespace std;
 
-bool gameOver;
-
-const int width = 25;
-const int height = 25;
-
+bool Gameover2;
 const int width = 20;
 const int height = 20;
-
 int x, y, fruitX, fruitY, score;
 int tailX[100], tailY[100];
 int nTail;
@@ -19,7 +14,7 @@ eDirection dir;
 
 void Setup()
 {
-    gameOver = false;
+    Gameover2 = false;
     dir = STOP;
     x = width / 2;
     y = height / 2;
